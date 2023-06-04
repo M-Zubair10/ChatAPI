@@ -17,10 +17,10 @@ logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
 # Use Google account for poe chatbot and openai account for chatgpt chatbot
-EMAIL = 'imuhammadzubair201@gmail.com'
-PASSWORD = 'appsamle10'
+EMAIL = 'youremail@gmail.com'
+PASSWORD = 'your password'
 VISIBILITY = False
-CHATBOT = 'poe'
+CHATBOT = 'poe'     # or openai
 
 
 def select_bot():
